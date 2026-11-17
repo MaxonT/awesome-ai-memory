@@ -43,7 +43,7 @@ Please open a pull request
 | BaseAI (from Langbase) - Memory | https://langbase.com/docs/memory        | Managed, Open source | https://github.com/LangbaseInc/baseai           | Memory Tool     | Vector        |
 | BondAI                        | https://bondai.dev/docs/agent-memory/    | Open source        | https://github.com/krohling/bondai              | Memory Tool     | Vector        |
 | MemGPT (from Letta)           | https://memgpt.ai/                       | Managed, Open source | https://github.com/cpacker/MemGPT               | Memory Tool     | Graph, Vector |
-| Statewave                     | https://statewave.dev/                   | Open source          | https://github.com/statewave-ai/statewave     | Memory Tool     | Graph, Vector |
+| Statewave                     | https://statewave.dev/                   | Open source          | https://github.com/smaramwbc/statewave        | Memory Tool     | Graph, Vector |
 | GraphRAG (from Microsoft)     | https://microsoft.github.io/graphrag/    | Open source        | https://github.com/microsoft/graphrag           | Memory Tool     | Graph, Vector |
 | Llama index                   | https://www.llamaindex.ai/               | Managed, Open source | https://github.com/run-llama/llama_index        | LLM Framework   | Graph, Vector |
 | Prometheus                    | https://prometheus.io/                   | Open source        | https://github.com/prometheus                   | Memory Tool     | Graph         |
@@ -65,7 +65,7 @@ Please open a pull request
 | NebulaGraph                   | https://www.nebula-graph.io/             | Open source        | https://github.com/vesoft-inc/nebula            | Storage         | Graph         |
 | Vanna.AI                          | https://vanna.ai/                       | Open source        | https://github.com/vanna-ai/vanna            | Memory Tool         | Vector        |
 | Neon                          | https://neon.tech/                       | Open source        | https://github.com/neondatabase/neon            | Storage         | Vector        |
-| WhyHowAI                      | https://www.whyhow.ai/                   | Closed             | https://github.com/whyhow-ai                    | Memory Tool     | Graph         |
+| WhyHowAI                      | https://www.whyhow.ai/                   | Closed             | —                                              | Memory Tool     | Graph         |
 | Graphlit                      | https://graphlit.com                     | Closed             |                                                 | Memory Tool     | Graph, Vector |
 | ragie.ai                      | ragie.ai                                 | Closed             | https://github.com/ragieai                      | Memory Tool     | Vector        |
 | Ontotext                      | https://www.ontotext.com/                | Closed             | https://github.com/Ontotext-AD                  | Memory Tool     | Graph         |
@@ -190,7 +190,7 @@ Implementations differ mainly in how they store and retrieve this memory: **vect
 | Atris | Project memory CLI for coding agents (Claude Code, Codex, Cursor): repo-local Markdown file:line map, linked wiki with typed links, and daily logs, shared through git | https://atris.ai/blog/memory-for-coding-agents | Open source | https://github.com/atrislabs/atris | Memory Tool | Graph |
 | MemoryBrain | Personal memory for ChatGPT and Claude over MCP; every note keeps its source (read, said or chat), with typed links between notes | https://memorybrain.ai/ | Managed, Open source | https://github.com/Memory-brain/open-brain | Memory Tool | Graph |
 | Uteke | Local-first long-term memory for AI agents: one offline Rust binary with hybrid vector + full-text recall, a relationship graph, rooms for shared memory and point-in-time recall; MCP server | https://uteke.app | Managed, Open source | https://github.com/codecoradev/uteke | Memory Tool | Graph, Vector |
-| WhyHowAI | Knowledge-graph tooling for structuring RAG and agent memory | https://www.whyhow.ai/ | Closed | https://github.com/whyhow-ai | Memory Tool | Graph |
+| WhyHowAI | Knowledge-graph tooling for structuring RAG and agent memory | https://www.whyhow.ai/ | Closed | — | Memory Tool | Graph |
 | Graphlit | Managed knowledge API for content ingestion, RAG, and agents | https://graphlit.com | Closed | | Memory Tool | Graph, Vector |
 | ragie.ai | Managed RAG-as-a-service for ingesting and retrieving documents | https://ragie.ai | Closed | https://github.com/ragieai | Memory Tool | Vector |
 | Ontotext | Enterprise knowledge-graph platform (GraphDB) for RDF and semantic data | https://www.ontotext.com/ | Closed | https://github.com/Ontotext-AD | Memory Tool | Graph |
